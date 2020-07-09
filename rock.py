@@ -24,7 +24,7 @@ def compare(u1,u2):
         else:
             return("rock wins")
     else:
-        return("input is Invalid")
+        return("Invalid Input")
         sys.exit()
 
 print(compare(player1_choice,player2_choice))
