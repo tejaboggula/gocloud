@@ -3,7 +3,7 @@ def fact(num):
         return num
     else:
         return num*fact(num-1)
-num = int(input("enter the number:"))
+num = int(input("enter the number to find the factorial:"))
 if num<0:
     print("factorial is not allowed for negative numbers")
 elif num == 0:
