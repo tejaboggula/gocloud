@@ -5,7 +5,7 @@ def fact(num):
         return num*fact(num-1)
 num = int(input("enter the number:"))
 if num<0:
-    print("factorial cannot be found for negative numbers")
+    print("factorial is not allowed for negative numbers")
 elif num == 0:
     print("factorial of the number 0 is 1")
 else:
